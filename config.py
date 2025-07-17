@@ -1,13 +1,12 @@
 # Path to the SQLite database file
-DB_PATH = "minecraft_mod.sqlite"
+DB_PATH = "database.sqlite"
 
 # Table name to interact with
-TABLE_NAME = "mcmod"
+TABLE_NAME = "your_table_name"
 
 # Columns to manage (excluding ID)
 COLUMNS = {
-    "mcmod_id": "INT(10)",
-    "mcmod_name": "VARCHAR(45)",
-    "create_date": "DATE",
-    "author_id": "INT(10)"
+    "name": "TEXT",
+    "email": "TEXT",
+    "age": "INTEGER"
 }
